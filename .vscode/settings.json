@@ -15,5 +15,9 @@
   "source.fixAll": true
 },
 "editor.tabSize": 2,
-"prettier.useTabs": true
+"prettier.useTabs": true,
+"emmet.includeLanguages": {
+  "javascript": "javascriptreact"
+},
+"emmet.triggerExpansionOnTab": true
 }
