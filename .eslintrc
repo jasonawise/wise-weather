@@ -1,0 +1,26 @@
+{
+    "extends": [
+      "wesbos"
+    ],
+    "rules": {
+      "no-console": 2,
+      "semi": 0,
+      "space-in-parens": "error",
+      "prettier/prettier": [
+        "warn",
+        {
+          "singleQuote": true,
+          "printWidth": 80,
+          "editor.formatOnSave": true,
+          "proseWrap": "always",
+          "tabWidth": 2,
+          "requireConfig": false,
+          "useTabs": true,
+          "trailingComma": "none",
+          "bracketSpacing": true,
+          "jsxBracketSameLine": false,
+          "semi": false
+        }
+      ]
+    }
+  }
