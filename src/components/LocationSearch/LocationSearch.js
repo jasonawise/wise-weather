@@ -1,4 +1,8 @@
+import React from 'react'
+
 function LocationSearch() {
+	const [location, setLocation] = React.useState(``)
+
 	return (
 		<>
 			<h2>Location Search</h2>
